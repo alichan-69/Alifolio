@@ -1,10 +1,10 @@
 <?php
-define('DSN', 'mysql:host=mysql1.php.xdomain.ne.jp;dbname=alichan_question');
-define('DB_USER', 'alichan_dbuser');
-define('DB_PASSWORD', 'Murao0905');
+define('DSN', 'mysql:host=[mysqlホスト名];dbname=[権限ユーザー名]');
+define('DB_USER', '[権限ユーザー名]');
+define('DB_PASSWORD', '[パスワード]');
 
 define('SITE_URL', 'http://alichan.php.xdomain.jp/portfolio_php/');
-define('ADMIN_URL', SITE_URL.'admin/');
+define('ADMIN_URL', SITE_URL.'[管理者ページurl]');
 
 error_reporting(E_ALL & ~E_NOTICE);
 
